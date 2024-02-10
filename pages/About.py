@@ -11,7 +11,7 @@ with st.container(border=True):
 
 data = {
     "Command":["Schedule", "Registration", "Location", "Services"],
-    "Description": ["Information of the clinic's schedule","Information for registration","Information of the clinic's location","Information of the available services and treatments"]
+    "Description": ["Information of the clinic's schedule","Information for registration and appointment","Information of the clinic's location","Information of the available services and treatments"]
 }
 
 "The informations you can get from me are:"

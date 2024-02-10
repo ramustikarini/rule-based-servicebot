@@ -6,12 +6,12 @@
     },
     {
       "intent": "schedule",
-      "query": ["Schedule", "When can I visit?"],
-      "responses": ["Our clinic is open every day, but you need to make an appointment first before visiting. If you want to make an appointment please contact **(number)**"]
+      "query": ["Schedule", "When can I visit?","When should i come?", "what time does this clinic open?"],
+      "responses": ["Our clinic is open every weekday, but you need to make an appointment first before visiting."]
     },
     {
       "intent": "registration",
-      "query": ["Registration","register","How do I make an appointment?", "I want to make an appointment"],
+      "query": ["Registration","register","regist","How do I make an appointment?", "I want to make an appointment", "I want to meet with the doctor"],
       "responses": ["Please contact **(number)** to make an appointment."]
     },
     {
@@ -31,12 +31,12 @@
     },
     {
       "intent": "extraction",
-      "query": ["Tooth extraction","Teeth extraction", "Extractions", "loose tooth", "loose teeth", "fall out"],
+      "query": ["Tooth extraction","Teeth extraction", "Extractions", "extraction", "loose tooth", "loose teeth", "fall out"],
       "responses": ["If you are experiencing loose teeth along with extreme tootache, then please do visit us immediately to get checked. The price for teeth extraction ranges from X to Y, depending on the case."]
     },
     {
       "intent": "cleaning",
-      "query": ["I want to clean my teeth", "Teeth cleaning"],
+      "query": ["I want to clean my teeth", "Teeth cleaning", "dirty teeth"],
       "responses": ["An annual or semi-annual visit for a cleaning will keep your teeth healthy, shiny, and strong. The price for teeth cleanings in our clinic ranges from X to Y."]
     },
     {
