@@ -1,0 +1,68 @@
+ [
+    {
+     "intent": "start",
+     "query": ["Hi","Hello","Good morning","Good afternoon", "hai", "excuse me"],
+     "responses": ["Welcome to the official website of X. What can I do to help you today? Type your question regarding the topic below **(Schedule, Registration, Location, Services)**"]
+    },
+    {
+      "intent": "schedule",
+      "query": ["Schedule", "When can I visit?"],
+      "responses": ["Our clinic is open every day, but you need to make an appointment first before visiting. If you want to make an appointment please contact **(number)**"]
+    },
+    {
+      "intent": "registration",
+      "query": ["Registration","register","How do I make an appointment?", "I want to make an appointment"],
+      "responses": ["Please contact **(number)** to make an appointment."]
+    },
+    {
+      "intent": "location",
+      "query": ["Location", "Where is this place located?", "Tell me the location of this clinic|place"],
+      "responses": ["The clinic is located at Jalan X No. X"]
+    },
+    {
+      "intent": "services",
+      "query": ["service", "services", "treatments", "treatment", "what treatments do you provide?", "what are the services?", "dental treatment"],
+      "responses": ["There are several treatments and services provided by us. Please type in the service you want to know about **(Consultation, Teeth cleaning, Teeth whitening, Extractions, Fillings, Braces, and Others)**"]
+    },
+    {
+      "intent": "consultation",
+      "query": ["consult", "consultation", "i want to do consultation", "i want to consult to the doctor first"],
+      "responses": ["We'd recommend you to consult first before getting any specific treatments. The price for consultation and prescription requests only for X."]
+    },
+    {
+      "intent": "extraction",
+      "query": ["Tooth extraction","Teeth extraction", "Extractions", "loose tooth", "loose teeth", "fall out"],
+      "responses": ["If you are experiencing loose teeth along with extreme tootache, then please do visit us immediately to get checked. The price for teeth extraction ranges from X to Y, depending on the case."]
+    },
+    {
+      "intent": "cleaning",
+      "query": ["I want to clean my teeth", "Teeth cleaning"],
+      "responses": ["An annual or semi-annual visit for a cleaning will keep your teeth healthy, shiny, and strong. The price for teeth cleanings in our clinic ranges from X to Y."]
+    },
+    {
+      "intent": "whitening",
+      "query": ["whitening", "teeth withening", "i want to withen my teeth", "i want to get rid of my yellow teeth", "i have yellow teeth"],
+      "responses": ["Bleaching is one of our dental treatment, which can make your teeth whiten faster by using a special gel and special light source. The price for bleaching is X."]
+    },
+    {
+      "intent": "fillings",
+      "query": ["cavity", "fillings"],
+      "responses": ["Cavities are all too common and all too easy to get. For most cavities, a filling is the recommended answer. The price for filling in our clinic ranges from X to Y."]
+    },
+    {
+      "intent": "braces",
+      "query": ["braces", "i want to have braces", "my teeth is crooked and crowded"],
+      "responses": ["We provide braces to straighten and correct crooked, gapped, rotated or crowded teeth, as straighter teeth are often healthier and easier to take care of. The price for braces in our clinic ranges from X to Y."]
+    },
+    {
+      "intent": "others",
+      "query": ["Other", "others", "is there any other treatments?", "do you have any other treatments?"],
+      "responses": ["We provide many other dental treatments, but we recommend you to consult to our doctor for treatments like Crowns, Dentures, and Root canal"]
+    },
+    {
+      "intent": "finish",
+      "query": ["thankyou", "bye", "good bye", "thanks", "i understand", "i'm done", "thank you"],
+      "responses": ["Thank you very much for using our service bot. Have a great day!"]
+    }
+  ]
+
