@@ -1,39 +1,9 @@
 User Input,Bot Response
-hiii,"I'm sorry, I don't have the answer for that question. For more information please contact **(number)**."
-hi,"Welcome to the official website of X. What can I do to help you today? Type your question regarding the topic below **(Schedule, Registration, Location, Services)**"
-im sad,"I'm sorry, I don't have the answer for that question. For more information please contact **(number)**."
-i miss papa,"I'm sorry, I don't have the answer for that question. For more information please contact **(number)**."
 hello,"Welcome to the official website of X. What can I do to help you today? Type your question regarding the topic below **(Schedule, Registration, Location, Services)**"
-share me the location,The clinic is located at Jalan X No. X
-what services you provided?,"There are several treatments and services provided by us. Please type in the service you want to know about **(Teeth cleaning, Teeth whitening, Extractions, Fillings, Braces, and Others)**"
-i want to withen my teeth,"Bleaching is one of our dental treatment, which can make your teeth whiten faster by using a special gel and special light source. The price for bleaching is X."
-dental treatment,"There are several treatments and services provided by us. Please type in the service you want to know about **(Teeth cleaning, Teeth whitening, Extractions, Fillings, Braces, and Others)**"
-treatments?,"I'm sorry, I don't have the answer for that question. For more information please contact **(number)**."
-treatments?,"There are several treatments and services provided by us. Please type in the service you want to know about **(Teeth cleaning, Teeth whitening, Extractions, Fillings, Braces, and Others)**"
-other treatments?,"We provide many dental treatments, but we recommend you to consult to out doctor for these treatments. These treatments are Crowns, Dentures, and Root canal"
-What treatments you provide?,"There are several treatments and services provided by us. Please type in the service you want to know about **(Teeth cleaning, Teeth whitening, Extractions, Fillings, Braces, and Others)**"
-other treatments?,"We provide many other dental treatments, but we recommend you to consult to our doctor for treatments like Crowns, Dentures, and Root canal"
-Where is this place?,The clinic is located at Jalan X No. X
-i want to consult to the doctor,The price for consultation and prescription requests only for X.
-What treatmets do you provide?,"There are several treatments and services provided by us. Please type in the service you want to know about **(Consultation, Teeth cleaning, Teeth whitening, Extractions, Fillings, Braces, and Others)**"
-hellu,"I'm sorry, I don't have the answer for that question. For more information please contact **(number)**."
-hai,"I'm sorry, I don't have the answer for that question. For more information please contact **(number)**."
-hai,"Welcome to the official website of X. What can I do to help you today? Type your question regarding the topic below **(Schedule, Registration, Location, Services)**"
-hello,"Welcome to the official website of X. What can I do to help you today? Type your question regarding the topic below **(Schedule, Registration, Location, Services)**"
-hi,"Welcome to the official website of X. What can I do to help you today? Type your question regarding the topic below **(Schedule, Registration, Location, Services)**"
-dental treatment,"There are several treatments and services provided by us. Please type in the service you want to know about **(Consultation, Teeth cleaning, Teeth whitening, Extractions, Fillings, Braces, and Others)**"
-other dental treatment?,"There are several treatments and services provided by us. Please type in the service you want to know about **(Consultation, Teeth cleaning, Teeth whitening, Extractions, Fillings, Braces, and Others)**"
-hello good morning,"Welcome to the official website of X. What can I do to help you today? Type your question regarding the topic below **(Schedule, Registration, Location, Services)**"
-I would like to see the schedule,"Our clinic is open every day, but you need to make an appointment first before visiting. If you want to make an appointment please contact **(number)**"
-How do I make an appointment?,Please contact **(number)** to make an appointment.
-Where is this clinic located?,The clinic is located at Jalan X No. X
-Can i see what services you provide?,"There are several treatments and services provided by us. Please type in the service you want to know about **(Consultation, Teeth cleaning, Teeth whitening, Extractions, Fillings, Braces, and Others)**"
-I want to use braces,"We provide braces to straighten and correct crooked, gapped, rotated or crowded teeth, as straighter teeth are often healthier and easier to take care of. The price for braces in our clinic ranges from X to Y."
-Can I do consultation first?,The price for consultation and prescription requests only for X.
-thank you,"I'm sorry, I don't have the answer for that question. For more information please contact **(number)**."
-thank you,"I'm sorry, I don't have the answer for that question. For more information please contact **(number)**."
-thanks,Thank you very much for using our service bot. Have a great day!
-thank you,"I'm sorry, I don't have the answer for that question. For more information please contact **(number)**."
-i think i'm done,Thank you very much for using our service bot. Have a great day!
-thank you for your help,Thank you very much for using our service bot. Have a great day!
-hai,"Welcome to the official website of X. What can I do to help you today? Type your question regarding the topic below **(Schedule, Registration, Location, Services)**"
+I'd like to see the clinic's schedule,"Our clinic is open every weekday, but you need to make an appointment first before visiting."
+How do i make an appointment?,Please contact **(number)** to make an appointment.
+what treatments do you provide?,"There are several treatments and services provided by us. Please type in the service you want to know about **(Consultation, Teeth cleaning, Teeth whitening, Extractions, Fillings, Braces, and Others)**"
+"I'd like to withen my teeth, how much does it cost?","Bleaching is one of our dental treatment, which can make your teeth whiten faster by using a special gel and special light source. The price for bleaching is X."
+What about braces? I have some crooked teeth,"We provide braces to straighten and correct crooked, gapped, rotated or crowded teeth, as straighter teeth are often healthier and easier to take care of. The price for braces in our clinic ranges from X to Y."
+"Okay, but maybe, i'll do a consultation first",We'd recommend you to consult first before getting any specific treatments. The price for consultation and prescription requests only for X.
+"Okay, thank you for the information",Thank you very much for using our service bot. Have a great day!
