@@ -21,9 +21,10 @@ for rule in rules:
 
 #interface
 with st.container(border=True):
-    st.title(':blue[$Clinic$ $Service Bot$]')
-    intro =('I am a clinic service bot. Please ignore if there is an attribute error and start your conversation in the chat box.')
+    st.title(':blue[$Dental$ $Clinic$ $Service Bot$]')
+    intro =('I am here to help you get the information you need. Greet me to start our conversation in the chat box down below! 😉🦷')
     st.markdown(f'{intro}') 
+    st.text('By: Rahma Amanda Mustikarini')
 
 #tumpuk chat/ mempertahankan chat utk setiap sesinya
 if 'messages' not in st.session_state:
@@ -34,7 +35,8 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 
 #input bot
-  
+
+user_input = " " 
 user_input = st.chat_input(placeholder="Type your message")
 
  
@@ -61,20 +63,20 @@ def rule_based_servicebot(input_text):
         if rule['intent'] == intent:
             response = random.choice(rule['responses'])
             return response
-
-#respon bot
-responses = rule_based_servicebot(user_input)
-with st.chat_message("Assistant"):
-    st.markdown(responses)
-st.session_state.messages.append({'role': 'Assistant', 'content':responses})
-
 #bikin chat log
 if not os.path.exists('chat_history.csv'):
     with open('chat_history.csv', 'w', newline='', encoding='utf-8') as csvfile:
         csv_writer = csv.writer(csvfile)
         csv_writer.writerow(['User Input', 'Bot Response'])
 
+#respon bot
+if user_input is not None:
+    responses = rule_based_servicebot(user_input)
+    with st.chat_message("Assistant"):
+        st.markdown(responses)
+    st.session_state.messages.append({'role': 'Assistant', 'content':responses})
+
 #simpan chat history
-with open('chat_history.csv', 'a', newline='', encoding='utf-8') as csvfile:
-    csv_writer = csv.writer(csvfile)
-    csv_writer.writerow([user_input, responses])
+    with open('chat_history.csv', 'a', newline='', encoding='utf-8') as csvfile:
+        csv_writer = csv.writer(csvfile)
+        csv_writer.writerow([user_input, responses])

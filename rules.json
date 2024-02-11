@@ -1,8 +1,8 @@
  [
     {
      "intent": "start",
-     "query": ["Hi","Hello","Good morning","Good afternoon", "hai", "excuse me"],
-     "responses": ["Welcome to the official website of X. What can I do to help you today? Type your question regarding the topic below **(Schedule, Registration, Location, Services)**"]
+     "query": ["Hi","Hello","Good morning","Good afternoon", "hai", "excuse me", "greetings", "hei"],
+     "responses": ["Welcome to the official website of our clinic! What can I do to help you today? Type your question regarding the topic below **(Schedule, Registration, Location, Services)**"]
     },
     {
       "intent": "schedule",
@@ -56,12 +56,12 @@
     },
     {
       "intent": "others",
-      "query": ["Other", "others", "is there any other treatments?", "do you have any other treatments?"],
-      "responses": ["We provide many other dental treatments, but we recommend you to consult to our doctor for treatments like Crowns, Dentures, and Root canal"]
+      "query": ["Other", "others", "is there any other treatments?", "do you have any other treatments?", "crowns", "dentures", "root canal"],
+      "responses": ["We provide many other dental treatments, but we recommend you to consult to our doctor for treatments like Crowns, Dentures, and Root canal to know the prices."]
     },
     {
       "intent": "finish",
-      "query": ["thankyou", "bye", "good bye", "thanks", "i understand", "i'm done", "thank you"],
+      "query": ["thankyou", "bye", "good bye", "thanks", "i understand", "i'm done", "thank you", "thanks for the information"],
       "responses": ["Thank you very much for using our service bot. Have a great day!"]
     }
   ]
